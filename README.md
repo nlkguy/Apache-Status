@@ -21,7 +21,8 @@ https://ip-api.com/
 
 ### Useful Links
 
-https://httpd.apache.org/docs/2.4/mod/mod_status.html
-https://help.blackboard.com/Learn/Administrator/Hosting/Performance_Optimization/Optimization_Apache/Server-Status_Module_Apache
-https://www.datadoghq.com/blog/collect-apache-performance-metrics/
-https://ip-api.com/docs
+- [Apache Official Documentation](https://httpd.apache.org/docs/2.4/mod/mod_status.html)
+- [Blackboard.com - Apache Server Status Module](https://help.blackboard.com/Learn/Administrator/Hosting/Performance_Optimization/Optimization_Apache/Server-Status_Module_Apache)
+- [DataDogHQ.com - Apache Performance Metrics](https://www.datadoghq.com/blog/collect-apache-performance-metrics/)
+- [IP-API Documentation](https://ip-api.com/docs)
+- [Peko-Step.com - Online Image Editor](https://www.peko-step.com/)
