@@ -14,3 +14,14 @@ Apache web server exposes metrics through its status module, mod_status. If your
 - The current hosts and requests being processed.
 
 ## IP Geolocation API
+
+Apache Status Monitor Script uses Free ip-api.com IP Geoplocation API 
+https://ip-api.com/
+
+
+### Useful Links
+
+https://httpd.apache.org/docs/2.4/mod/mod_status.html
+https://help.blackboard.com/Learn/Administrator/Hosting/Performance_Optimization/Optimization_Apache/Server-Status_Module_Apache
+https://www.datadoghq.com/blog/collect-apache-performance-metrics/
+https://ip-api.com/docs
