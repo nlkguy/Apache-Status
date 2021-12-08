@@ -3,22 +3,22 @@ Python Script for scraping Apache Server Status page if present , find directori
 ## Apache-Server-Status
 
 The Apache Server-Status module provides an instrumentation tool set to determine how well the Apache server instance is performing.
-Apache web server exposes metrics through its status module, mod_status. If your server is running and mod_status is enabled, your server’s status page should be available at http://{host}/server-status. If that link does not work, it means you need to enable mod_status in your configuration file.
+Apache web server exposes metrics through its status module, mod_status. If your server is running and mod_status is enabled, your server’s status page should be available at ```http://{host}/server-status/.``` If that link does not work, it means you need to enable mod_status in your configuration file.
 <p align="center">
 <img width="1608" height="188" src="https://github.com/nlkguy/Apache-Status/blob/main/images/apache_stat_01.png">
 </p>
 
 ```
-Srv	- Child Server number - generation
+Srv - Child Server number - generation
 PID -	OS process ID
 Acc - Number of accesses this connection / this child / this slot
 M - Mode of operation
-CPU	- CPU usage, number of seconds
+CPU - CPU usage, number of seconds
 SS - Seconds since beginning of most recent request
 Req - Milliseconds required to process most recent request
 Dur - Sum of milliseconds required to process all requests
 Conn - Kilobytes transferred this connection
-Child	- Megabytes transferred this child
+Child - Megabytes transferred this child
 Slot - Total megabytes transferred this slot
 
 ```
@@ -31,6 +31,13 @@ Slot - Total megabytes transferred this slot
 - An average of the number of requests per second, the number of bytes served per second, and the average number of bytes per request.
 - The current percentage of the CPU used by each child and in total by Apache.
 - The current hosts and requests being processed.
+
+## How to find Servers with Apache Status Enabled
+There is always our good Ol' Google Dorking to find hosts with mod_status enabled. Status page title is ```<title>Apache Status</title>``` and the url contains ```/server-status/```. that is more than enough to be put within google search operators like intitle:, inurl: .etc and find such servers.
+<p align="center">
+<img width="900" height="460" src="https://github.com/nlkguy/Apache-Status/blob/main/images/dorking0_1.png">
+</p>
+
 
 ## IP Geolocation API
 
