@@ -1,5 +1,10 @@
 # Apache-Status Monitor
 Python Script for scraping Apache Server Status page if present , find directories , connected IPs and their geolocation .etc
+## To-DO 
+- Optimize Python Script
+- Write in Pure C 
+- Script Metasploit Module
+- improve NSE Script 
 ## Apache-Server-Status
 
 The Apache Server-Status module provides an instrumentation tool set to determine how well the Apache server instance is performing.
