@@ -1,6 +1,11 @@
 # Apache-Status Monitor
-Python Script for scraping Apache Server Status page if present , find directories , connected IPs and their geolocation .etc
+Python Script for scraping Apache Server Status page for information gathering.
+- Collect Client IPs and their geolocation.
+- find urls from requests.
+- find open directories.
+- find internal information.
 ## To-DO 
+- Cron job to run script and log IPs
 - Optimize Python Script
 - Write in Pure C 
 - Script Metasploit Module
