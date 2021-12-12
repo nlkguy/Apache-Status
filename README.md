@@ -1,6 +1,7 @@
 # Apache-Status Monitor
 Python Script for scraping Apache Server Status page for information gathering.
 - Collect Client IPs and their geolocation.
+- detect fuzzing
 - find urls from requests.
 - find open directories.
 - find internal information.
